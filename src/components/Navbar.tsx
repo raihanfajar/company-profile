@@ -60,7 +60,7 @@ const Navbar = () => {
 
         {/* Desktop Nav */}
         <div className="hidden items-center gap-6 md:flex">
-          <Link href="/" className={`${linkClass} font-semibold`}>
+          <Link href="/about" className={`${linkClass} font-semibold`}>
             About Us
           </Link>
           <Link href="/teams" className={`${linkClass} font-semibold`}>
@@ -109,7 +109,7 @@ const Navbar = () => {
         >
           <div className="flex flex-col gap-6 p-6 pt-20 text-black">
             <Link
-              href="/"
+              href="/about"
               className={linkClass}
               onClick={() => setMenuOpen(false)}
             >
