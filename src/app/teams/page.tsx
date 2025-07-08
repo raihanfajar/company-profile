@@ -49,8 +49,9 @@ function Teams() {
               <div className="mt-9 flex h-[calc(100%-72px)] w-full flex-col items-center justify-center rounded-2xl border-2 border-black bg-[#7bbcb6] px-5 text-[#03045E]">
                 <div className="h-5 lg:h-10"></div>
                 <h1 className="mb-5 text-center text-xl font-semibold text-blue-700">
-                  {member.name.first} {member.name.last}, {member.location.city}
+                  {member.name.first} {member.name.last},
                 </h1>
+                <p className="text-gray-500">{member.location.city}</p>
               </div>
             </div>
           ))}
