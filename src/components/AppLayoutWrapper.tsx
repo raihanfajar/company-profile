@@ -13,7 +13,7 @@ const AppLayoutWrapper: React.FC<AppLayoutWrapperProps> = ({ children }) => {
   const pathname = usePathname(); // Dapatkan path URL saat ini
 
   // Definisikan path mana saja yang TIDAK ingin menampilkan navbar
-  const noNavbarPaths = ['/sign-in', '/sign-up']; // Anda bisa tambahkan path lain di sini
+  const noNavbarPaths = ['/sign-in']; // Anda bisa tambahkan path lain di sini
 
   // Periksa apakah path saat ini ada di daftar noNavbarPaths
   const showNavbar = !noNavbarPaths.includes(pathname);

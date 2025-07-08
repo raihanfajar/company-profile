@@ -63,7 +63,7 @@ const Navbar = () => {
           <Link href="/" className={`${linkClass} font-semibold`}>
             About Us
           </Link>
-          <Link href="/" className={`${linkClass} font-semibold`}>
+          <Link href="/teams" className={`${linkClass} font-semibold`}>
             Teams
           </Link>
           <Link href="/blog" className={`${linkClass} font-semibold`}>
@@ -116,7 +116,7 @@ const Navbar = () => {
               About Us
             </Link>
             <Link
-              href="/"
+              href="/teams"
               className={linkClass}
               onClick={() => setMenuOpen(false)}
             >
