@@ -31,8 +31,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ease-in-out
-        ${scrolled ? "bg-white text-black shadow-md" : "bg-transparent text-white"}`}
+      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ease-in-out 
+        ${scrolled ? "bg-[#a8bdbf] text-black shadow-md" : "bg-transparent text-white"}`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between p-4">
         <div className="flex items-center">
