@@ -47,7 +47,9 @@ const Navbar = () => {
         </div>
 
         <div className={`flex items-center gap-4 ${scrolled ? "text-black" : "text-white"}`}>
-          <Link href="/">Home</Link>
+          <Link href="/">About Us</Link>
+          <Link href="/">Teams</Link>
+          <Link href="/">Blog List</Link>
           {user ? (
             <>
               <Link href="/write">Write</Link>

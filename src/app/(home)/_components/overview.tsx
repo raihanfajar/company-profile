@@ -2,7 +2,7 @@ import React from "react";
 
 function Overview() {
   return (
-    <section className="container mx-auto mt-52 min-h-[100vh] px-4">
+    <section className="container mx-auto mt-52 px-4">
       <div className="flex h-auto flex-col items-center justify-center gap-14 md:flex-row">
         <div className="flex items-center justify-center">
           <h1 className="text-3xl font-bold text-center">Our Company</h1>
