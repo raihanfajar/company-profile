@@ -66,7 +66,7 @@ const Navbar = () => {
           <Link href="/" className={`${linkClass} font-semibold`}>
             Teams
           </Link>
-          <Link href="/" className={`${linkClass} font-semibold`}>
+          <Link href="/blog" className={`${linkClass} font-semibold`}>
             Blog List
           </Link>
           {user ? (
@@ -123,7 +123,7 @@ const Navbar = () => {
               Teams
             </Link>
             <Link
-              href="/"
+              href="/blog"
               className={linkClass}
               onClick={() => setMenuOpen(false)}
             >
