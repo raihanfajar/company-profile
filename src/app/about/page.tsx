@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image'; // Asumsi kamu akan memakai Image dari next/image di sini
+import Image from 'next/image'; 
 
 function AboutUs() {
   return (
@@ -17,7 +17,7 @@ function AboutUs() {
       <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16 mb-16">
         <div className="w-full md:w-1/2">
           <Image
-            src="/team.png" // Ganti dengan path gambar yang relevan
+            src="/team.png" 
             alt="Our Genesis"
             width={600}
             height={400}
@@ -34,10 +34,10 @@ function AboutUs() {
       </div>
 
       {/* Bagian Our Mission */}
-      <div className="flex flex-col md:flex-row-reverse items-center gap-10 md:gap-16 mb-16"> {/* reverse untuk layout bergantian */}
+      <div className="flex flex-col md:flex-row-reverse items-center gap-10 md:gap-16 mb-16"> 
         <div className="w-full md:w-1/2">
           <Image
-            src="/hutan.jpg" // Ganti dengan path gambar yang relevan
+            src="/hutan.jpg" 
             alt="Our Mission"
             width={600}
             height={400}
@@ -102,10 +102,6 @@ function AboutUs() {
         <p className="max-w-4xl text-lg md:text-xl text-gray-700 mb-8">
           The challenges facing our planet are immense, but so is the power of collective action. We invite you to learn more about our work, join our initiatives, and become a part of the GreenStride family. Together, we can take meaningful steps towards nurturing Earth and securing tomorrow for everyone.
         </p>
-        {/* Tambahkan tombol CTA jika ada */}
-        <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300">
-          Learn How You Can Help
-        </button>
       </div>
     </section>
   );
