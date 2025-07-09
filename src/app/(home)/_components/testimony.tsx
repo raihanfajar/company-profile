@@ -65,29 +65,6 @@ function Testimony() {
           </div>
           {/* END OF ORANG 2 */}
 
-          {/* ORANG 3 */}
-          <div className="relative flex h-[290px] w-[320px] items-center justify-center md:w-[400px]">
-            <div className="absolute top-0 left-1/2 h-[80px] w-[80px] -translate-x-1/2 overflow-hidden rounded-full border-2 border-black md:h-[100px] md:w-[100px]">
-              <Image
-                src="/orang3.png"
-                alt="Profile Picture"
-                fill={true}
-                objectFit="cover"
-              />
-            </div>
-            <div className="mt-9 flex h-[calc(100%-72px)] w-full flex-col items-center justify-center rounded-2xl border-2 border-black bg-[#7bbcb6] px-5 text-[#03045E]">
-              <div className="h-5 lg:h-10"></div>
-              <p className="text-justify">
-                "My students were captivated by GreenStride's educational
-                workshop. They now understand the importance of conservation and
-                are actively making sustainable choices at home."
-              </p>
-              <h1 className="mb-5 text-center text-xl font-semibold text-blue-700">
-                Aisha R., Elementary School Teacher, Nairobi
-              </h1>
-            </div>
-          </div>
-          {/* END OF ORANG 3 */}
         </div>
       </div>
     </section>

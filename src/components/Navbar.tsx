@@ -71,7 +71,7 @@ const Navbar = () => {
           </Link>
           {user ? (
             <>
-              <Link href="/write"className={`${linkClass} font-semibold`}>
+              <Link href="/write" className={`${linkClass} font-semibold`}>
                 Write
               </Link>
               <Button variant="destructive" onClick={clearAuth}>
@@ -105,7 +105,7 @@ const Navbar = () => {
       {menuOpen && (
         <div
           ref={menuRef}
-          className={`fixed top-0 right-0 z-40 h-full w-1/2 bg-[#a8bdbf] shadow-lg transition-transform duration-300 ease-in-out md:hidden backdrop-blur-sm`}
+          className={`fixed top-0 right-0 z-40 h-full w-1/2 bg-[#a8bdbf] shadow-lg backdrop-blur-sm transition-transform duration-300 ease-in-out md:hidden`}
         >
           <div className="flex flex-col gap-6 p-6 pt-20 text-black">
             <Link
